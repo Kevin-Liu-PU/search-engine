@@ -77,7 +77,7 @@ class SearchTests(unittest.TestCase):
         self.write("next.html", "alpha beta")
         result = self.run_cli("--query", "alpha beta gamma delta", "--query", "scriptword",
                               "--query", "styleword", "--query", "commenttoken")
-        self.assertEqual(result["documents"][0]["title"], 'Caf�� & "Tea"')
+        self.assertEqual(result["documents"][0]["title"], 'Café & "Tea"')
         self.assertEqual(self.paths(result), ["index.html", "next.html"])
         self.assertEqual(result["stats"]["links_seen"], 1)
         self.assertEqual(result["queries"][0]["hits"][0]["score"], 4)
