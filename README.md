@@ -13,6 +13,10 @@ The bundled garden pages and all generated test data are synthetic.
 
 There is no network fetching. Each invocation builds an in-memory index; nothing is persisted.
 
+## Demo
+
+[Watch the terminal demo](media/demo.mp4).
+
 ## Build and try it
 
 Requires a C++17 compiler with filesystem support. Tests and the timing script use Python 3 and its standard library.
