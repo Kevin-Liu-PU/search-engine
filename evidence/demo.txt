@@ -1,0 +1,14 @@
+Indexed 5 pages, 118 tokens, 69 terms (2006 input bytes).
+Links: 13 seen, 7 duplicates, 0 omitted by limit.
+Skipped "https://example.invalid/reference": unsupported_url
+Skipped "missing.html": unavailable_path
+
+Query "soil water": 3 matches
+  7  guide/soil.html  | Soil Notebook
+  6  guide/water.html  | Water Notebook
+  4  index.html  | Field Notes
+
+Query "compost soil": 3 matches
+  7  guide/compost.html  | Compost Notebook
+  7  guide/soil.html  | Soil Notebook
+  3  index.html  | Field Notes

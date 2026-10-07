@@ -1,0 +1,37 @@
+{
+  "corpus_pages": 201,
+  "stats": {
+    "pages": 201,
+    "tokens": 1608,
+    "terms": 206,
+    "bytes_indexed": 24864,
+    "links_seen": 400,
+    "links_omitted": 0,
+    "duplicate_links": 200
+  },
+  "queries": [
+    {
+      "query": "garden",
+      "matches": 200
+    },
+    {
+      "query": "garden amber",
+      "matches": 100
+    },
+    {
+      "query": "birch cedar",
+      "matches": 14
+    },
+    {
+      "query": "amber absent",
+      "matches": 0
+    }
+  ],
+  "benchmark": {
+    "repetitions": 200,
+    "queries_per_repetition": 4,
+    "build_ms": 821.279,
+    "query_ms": 1.525,
+    "checksum": 20937200
+  }
+}

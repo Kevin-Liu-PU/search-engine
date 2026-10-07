@@ -1,0 +1,5 @@
+/build/
+/fixture-search
+/fixture-search.exe
+__pycache__/
+*.pyc
